@@ -32,6 +32,7 @@
     border-radius: 20px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -57,6 +58,10 @@
 
     margin-top: 10px;
 
+}
+
+.button-back{
+    margin-top: 10px;
 }
 
 .footer {

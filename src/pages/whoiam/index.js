@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiInstagram, FiLinkedin, FiGithub} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { FiInstagram, FiLinkedin, FiGithub, FiArrowLeft} from 'react-icons/fi';
 
 import './style.css';
 
@@ -9,7 +10,7 @@ const year = date.getFullYear();
 const WhoIAm = () => {
     return(
         <div id="container-home">
-            
+              
                 <div className="box-text">
                     <h1>Who is Arthur?</h1>
                     <div className="description">
@@ -19,6 +20,10 @@ const WhoIAm = () => {
                       improve my skills, I am proactive and I also like to receive constructive 
                       criticism about my projects and work. I have intermediate English, I can hear 
                       and speak reasonably well and write without any problem.</p>
+                    </div>
+
+                    <div id="button-back">
+                    <Link to="/"><FiArrowLeft size="25" color="rgba(255, 255, 255, 0.753)"/></Link> 
                     </div>
                     
                 </div>

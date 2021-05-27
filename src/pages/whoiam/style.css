@@ -24,18 +24,23 @@
     background: rgb(0, 0, 0);
 }
 
-.box{
+.box-text {
     width:500px;
-    height: 150px;
+    height: 500px;
 
     border: 1px solid rgba(255, 255, 255, 0.205);
     border-radius: 20px;
 
-    display: flex;
-    justify-content: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     
     color: white;
+}
+
+.box-text h1:hover {
+    opacity: 0.7;
 }
 
 .box a {
@@ -64,6 +69,10 @@
     text-align: justify;
 
     margin-top: 10px;
+}
+
+#button-back {
+    bottom: 10px;
 }
 
 .footer {
