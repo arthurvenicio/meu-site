@@ -9,7 +9,7 @@ const year = date.getFullYear();
 
 const WhoIAm = () => {
     return(
-        <div id="container-home">
+        <div className="container">
               
                 <div className="box-text">
                     <h1>Who is Arthur?</h1>

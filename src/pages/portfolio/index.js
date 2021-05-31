@@ -9,7 +9,7 @@ const year = date.getFullYear();
 
 const Portfolio = () => {
     return(
-        <div id="container-home">
+        <div className="container">
             
                 <div className="box">
                   <div className="description">

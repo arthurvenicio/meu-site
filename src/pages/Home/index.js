@@ -9,7 +9,7 @@ const year = date.getFullYear();
 
 const Home = () => {
     return(
-        <div id="container-home">
+        <div className="container">
             
                 <div className="box">
                     <p><Link to="/whoiam"><a href>Who is Arthur?</a></Link></p>
